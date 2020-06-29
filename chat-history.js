@@ -63,6 +63,7 @@ const chatHistory = async (chat) => {
   const hours = dt.getHours()
   const mins = dt.getMinutes()
   console.log( `${hours}:${mins} - [${lastIdofMsgs}]`)
+  return usersMsg
 }
 
 const sendToServer = async (messages) => {
